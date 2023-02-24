@@ -1,0 +1,106 @@
+/*
+	Author: UCSCODE!
+*/
+@import url('font-size.min.css');
+
+.cursor-default { cursor: default !important; }
+.cursor-auto { cursor: auto !important; }
+.cursor-revert { cursor: revert !important; }
+
+.cursor-alias { cursor: alias !important; }
+.cursor-all-scroll { cursor: all-scroll !important; }
+.cursor-cell { cursor: cell !important; }
+
+.cursor-col-resize { cursor: col-resize !important; }
+.cursor-row-resize { cursor: row-resize !important; }
+
+.cursor-context-menu { cursor: context-menu !important; }
+.cursor-copy { cursor: copy !important; }
+.cursor-crosshair { cursor: crosshair !important; }
+
+.cursor-e-resize { cursor: e-resize !important; }
+.cursor-ew-resize { cursor: ew-resize !important; }
+
+.cursor-n-resize { cursor: n-resize !important; }
+.cursor-ne-resize { cursor: ne-resize !important; }
+.cursor-nesw-resize { cursor: nesw-resize !important; }
+
+.cursor-ns-resize { cursor: ns-resize !important; }
+.cursor-nw-resize { cursor: nw-resize !important; }
+.cursor-nwse-resize { cursor: nwse-resize !important; }
+
+.cursor-s-resize { cursor: s-resize !important; }
+.cursor-se-resize { cursor: se-resize !important; }
+.cursor-sw-resize { cursor: sw-resize !important; }
+
+.cursor-w-resize { cursor: w-resize !important; }
+
+.cursor-text { cursor: text !important; }
+.cursor-vertical-text { cursor: vertical-text !important; }
+
+.cursor-grab { cursor: grab !important; }
+.cursor-grabbing { cursor: grabbing !important; }
+.cursor-move { cursor: move !important; }
+.cursor-help { cursor: help !important; }
+.cursor-no-drop { cursor: no-drop !important; }
+
+.cursor-none { cursor: none !important; }
+.cursor-not-allowed { cursor: not-allowed !important; }
+
+.cursor-poiniter { cursor: pointer !important; }
+.cursor-progress { cursor: progress !important; }
+
+.cursor-wait { cursor: wait !important; }
+
+.cursor-zoom-in { cursor: zoom-in !important; }
+.cursor-zoom-out { cursor: zoom-out !important; }
+
+/* =================================== END CURSORS =========================== */
+
+
+.--required::after {
+	content: '*';
+	display: inline-block;
+	margin-left: 0.3rem;
+	color: var(--bs-pink);
+}
+
+.resize-none {
+	resize: none !important;
+}
+
+
+/* 
+	======= [ COL-SM ] ======= 
+*/
+
+@media (min-width:576px) {
+	
+}
+
+
+/* 
+	======= [ COL-MD ] ======= 
+*/
+
+@media (min-width:768px) {
+	
+}
+
+
+/* 
+	======= [ COL-LG ] ======= 
+*/
+
+@media (min-width:992px){
+	
+}
+
+
+/* 
+	======= [ COL-XL ] ======= 
+*/
+
+@media (min-width:1200px) {
+	
+}
